@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z') + 1):
-    if chr(i) not in ['q', 'e']:
-        print("{}".format(chr(i)), end = '')
+for i in list(
+        range(ord('a'), ord('e'))
+        ) + list(
+                range(ord('f'), ord('q'))
+                ) + list(
+                        range(ord('r'), ord('z') + 1)
+                        ):
+    print('{:c}'.format(i), end="")
