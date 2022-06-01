@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-for m in range(0, 99):
-    print("{} = {}".format(m, hex(m)))
+print(*(map("{:02d}".format, range(100))), sep=", ")
