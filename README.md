@@ -1,1 +1,1 @@
-This is and advancement to higher level programming in the ALX SE program
+This is an advancement to higher level programming in the ALX SE program
