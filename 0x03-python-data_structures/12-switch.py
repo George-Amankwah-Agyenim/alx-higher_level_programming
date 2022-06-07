@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-a , b = 89, 10
-c = a
-a = b
-b = c
+a = 89
+b = 10
+# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
 print("a={:d} - b={:d}".format(a, b))
