@@ -1,5 +1,14 @@
 #!/usr/bin/python3
-def best_score(a_dictionary):
-    if not a_dictionary:
+def best_score(my_dict):
+    score = 0
+    key = ''
+    if my_dict is None:
         return None
-    return max(a_dictionary)
+    else:
+        for k, v in my_dict.items():
+            if v > score:
+                score = v
+                key = k
+    if score == 0:
+        return None
+    return 
