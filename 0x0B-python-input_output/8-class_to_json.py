@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module 10-class_to_json.
+"""Module 8-class_to_json.
 Returns the dictionary description with
 simple data structure (list, dictionary,
 string, integer and boolean)
@@ -14,4 +14,4 @@ def class_to_json(obj):
     Returns: dictionnary description of obj
     """
 
-    return obj.
+    return obj.__dict__
